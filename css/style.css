@@ -1,0 +1,133 @@
+ul {
+    list-style-type: none;
+    padding-top: 5px;
+}
+li{
+    padding-top: 10px;
+
+}
+a {
+    text-decoration: none;
+}
+.row{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.link-about{
+    color:black;
+}
+.link-about :hover{
+    color:black;
+}
+
+.about label{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-size: 16;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer{
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 3px;
+    font-size: 16;
+    justify-content: center;
+    align-content: center;
+}
+.menu-navbar{
+    margin-bottom: 10px;
+}
+.more-filters{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.more-filters button{
+    background-color: white;
+    border-radius: 12px;
+}
+.navbar{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.navbar button{
+    background-color: white;
+    border-radius: 18px;
+}
+.nav-item a:hover{
+    background-color:rgb(236, 236, 234);
+    border-radius: 18px;
+}
+.brand a{
+    text-decoration: none;
+
+}
+.brand a:hover{
+    text-decoration: unset;
+    text-decoration:#28a745 ;
+
+}
+
+.brand{
+    font-size: 22px;
+    font-weight: bold;
+    color:#28a745;
+    padding: 10px;
+    
+}
+.brand label:hover{
+    color:white;
+    background-color: #28a745;
+    border-radius: 18px;
+}
+.habitacion{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.habitacion img{
+    width: 100%;
+    border-radius: 20px;
+}
+.habitaciones{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card-name{
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: center;
+}
+.card-price{
+    align-content: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: center;
+}
+.card-type{
+    align-content: center;
+    font-weight: bold   ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: center;
+}

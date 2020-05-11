@@ -10,13 +10,10 @@ var settings = {
 $.ajax(settings).done(function (response) {
     // console.log(response);
     response.map( (item) => {
-        let name = item.name;
-        let price = item.price + ",00";
-        let photo = item.photo;
-        let property_type = item.property_type;
+        let {name, price, photo, property_type} = item;
+        price += ",00";
         photo = photo.replace("xx_large", "medium");
         photo = photo.replace("x_large", "medium");
-        console.log(photo);
         let card = `<div class='col-md-3 habitacion'>
                         <img alt='${name}' src='${photo}' />
                         <h3 class='card-name'>${name}</h3>
